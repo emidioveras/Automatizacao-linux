@@ -30,7 +30,7 @@ apt_update(){
 }
 
 # ------------------------------- TESTES DE CONEXAO ----------------------------------------- #
-# Maquina tme internet ?
+# Maquina tem internet ?
 teste_conexao(){
 	if ! ping -c 1 8.8.8.8 -q &> /dev/null; then
 		echo -e "${VERMELHO}[ERROR] - Seu computador não tem conexão de internet. Verifique a rede.${SEM_COR}"
