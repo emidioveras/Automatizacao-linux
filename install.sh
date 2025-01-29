@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #
-# Autor Midim
+# Autor Emidio Veras
 #
 # Como Usar?
 # 	$ ./install.sh
